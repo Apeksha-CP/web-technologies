@@ -1,0 +1,87 @@
+<style>
+        body{
+            background-color: burlywood;
+        }
+        h1{
+            color: bisque;
+            text-transform: uppercase;
+            background-color:chocolate;
+            font-size: 60px;
+            text-align: center;
+        }
+        .parent{
+            width:100%;
+        }
+        img{
+            width:500px;
+            height:auto;
+        }
+        .son{
+            width:50%;
+            float:left;
+        }
+        .daughter{
+            width:50%;
+            float:right;
+        }
+        /*mobiles device*/
+        @media(min-width:320px) and (max-width:480px){
+            h1{
+                color: red;
+                width: 100%;
+                background-color:bisque;
+                text-align: center;
+            }
+            .daughter{
+                width: 100%;
+            }
+            .son{
+                width: 100%;
+            }
+            .daughter img{
+                width: 100%;
+                height:auto;
+            }
+
+        }
+        /*tablet device*/
+        @media(min-width:481px) and (max-width:768px){
+            h1{
+                color: red;
+                width: 100%;
+                background-color: black;
+                text-align: center;
+            }
+            .daughter{
+                width: 100%;
+            }
+            .son{
+                width: 100%;
+            }
+            .daughter img{
+                width: 100%;
+                height:auto;
+            }
+
+
+        }
+        /*laptop device*/
+        @media(min-width:769px) and (max-width:1024px){
+            h1{
+                color: turquoise;
+                width: 100%;
+                background-color:navy;
+                text-align: center;
+            }
+            .daughter{
+                width: 100%;
+            }
+            .son{
+                width: 100%;
+            }
+            .daughter img{
+                width: 100%;
+                height:auto;
+            }
+
+        }

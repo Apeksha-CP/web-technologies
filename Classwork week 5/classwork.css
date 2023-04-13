@@ -1,0 +1,29 @@
+*{
+    font-size: 50px; 
+}
+h1{
+    background-color: black; 
+    color: brown; 
+    font-family: 'Edu NSW ACT Foundation', cursive;
+  }
+  #p1{
+      background-color: aliceblue;
+      color: darkkhaki;
+      font-style: italic;
+  }
+  #p2{
+      background-color: black;
+      color: crimson;
+      font-style: oblique;
+      font-family: 'Edu NSW ACT Foundation', cursive;
+  }
+  .p3:hover{
+      background-color:red;
+      color: violet;
+      font-style:italic;
+  }
+  img[alt]{
+      width: 500px;
+      height: 300px;
+      color: blue;
+  }
